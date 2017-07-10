@@ -1,0 +1,159 @@
+h1 {
+ 	font-family: 'Sacramento', cursive;
+ 	color: pink;
+ 	text-align: center;
+ 	border-spacing: 20px;
+ 	font-size: 85px;
+ 	line-height: 2.5px;
+ }
+ 
+ h2 {
+ 	font-family: 'Poiret One', cursive;
+ 	color: powderblue;
+ 	text-align: center;
+ 
+ }
+ 
+ h3 {
+ 	font-family: 'Petit Formal Script', cursive;
+ 	color: pink;
+ 	font-size: 26px;
+ }
+ 
+.nagivation {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	display: inline;
+ 	position: fixed;
+ 	top: 0;
+ 	width: 100%;
+ 	font-family:'Poiret One', cursive, bold;
+ 	text-align: center;
+ 
+ }
+ 
+ul.navigation {
+ 	border: 4px solid rgb (22, 85, 156);
+ 	border-radius: 6px;
+ 	overflow: scroll;
+ 	border-width: 100%;
+ }
+ 
+li.navigation {
+ 	float: left;
+ 	border-right: 1px solid #bbb;
+ 
+ }
+ 
+li a.navigation {
+ 	display: inline-block;
+ 	padding: 10px 12px;
+ 	text-align: center;
+ }
+ 
+ .aboutme {
+ 	font-family: 'Poiret One', cursive;
+ 	font-size: 24px;
+ 	color: #808080;
+ }
+ 
+ h4 {
+ 	bottom: 0;
+ 	width: 100%;
+ 	font-family: 'Petit Formal Script', cursive, bold;
+ 	color: pink;
+ 	text-align: center;
+ 	height: 100px;
+ 	background-image: -webkit-linear-gradient(top, white, lightblue)
+ }
+ 
+ h5{
+ 	font-family: 'Petit Formal Script', cursive, bold;
+ 	font-size: 27px;
+ 	color: rgba(130, 287, 260, .7);
+ }
+ 
+ h6{
+ 	font-family: 'Petit Formal Script', cursive, bold;
+ 	font-size: 24px;
+ 	color: pink;
+ 	text-align: left;
+ }
+ 
+ h2,li a {
+ 	color: rgba(135, 206, 250, .9);
+ }
+ 
+ img.amalia {
+ 	width: 200px;
+ 	height: 200px;
+ 	display: block;
+ 	margin: 0px auto;
+ }
+ 
+ img.recipes {
+ 	width:300px; 
+ 	height: 300px;
+ 	align: right;
+ 	hspace: 30;
+ 	vspace: 20;
+ }
+ 
+ .keylimerecipe, .keylimedirections,.recipetypes, .slideshow, .myslideshow {
+ 	list-style-type: square;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	display: list-item;
+ 	font-family:'Poiret One', cursive, bold;
+ 	text-align: left;
+ }
+
+.slideshow, .myslideshow {
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	position: center;
+}
+
+.slideshow, .myslideshow ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+.slideshow, .myslideshow li {
+	float: left;
+}
+
+.slideshow, .myslideshow a:hover {
+	background: rgba(135, 206, 250, .9);
+	border-color: pink;
+}
+
+.slideshow, .myslideshow a:active {
+	background: lightblue;
+}
+
+.back, .next {
+	position: absolute;
+	top: 175px;
+	color: pink;
+	background: none;
+	padding: 5px;
+	z-index: 2;
+}
+
+.back {
+	left: 0px;
+	border-left: 3px solid pink;
+}
+
+.next {
+	right: 0px;
+	border-right: 3px solid pink;
+}
