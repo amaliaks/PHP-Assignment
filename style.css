@@ -1,4 +1,4 @@
-h1 {
+h1, .comment {
  	font-family: 'Sacramento', cursive;
  	color: pink;
  	text-align: center;
